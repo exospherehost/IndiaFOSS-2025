@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Space Image generator from Exosphere booth at IndiaFOSS 2025",
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "runner": "node runner.js",
+    "register": "node register.js",
+    "trigger": "node trigger.js"
   },
   "repository": {
     "type": "git",
